@@ -1,0 +1,9 @@
+name: crossword-share
+services:
+  node:
+    type: node:18
+    command: peerjs --port 9000 --key peerjs --path /myapp
+    port: 9000:9000
+    globals:
+      npm: latest
+      peer: latest

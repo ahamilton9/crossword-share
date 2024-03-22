@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crossword Share</title>
+  <script type="module" src="/main.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <span id="grid-wrapper" class="column">
+    <div id="grid"></div>
+    <p id="title"></p>
+    <p id="author"></p>
+    <p id="copyright"></p>
+  </span>
+  <div id="across" class="column">
+    <h2>Across</h2>
+    <div id="across-content"></div>
+  </div>
+  <div id="down" class="column">
+    <h2>Down</h2>
+    <div id="down-content"></div>
+  </div>
+  <div id="chat" class="column">
+    <h2>Chat</h2>
+    <div id="chat-log"></div>
+    <form id="chat-form">
+      <input type="text" id="chat-input"></input>
+    </form>
+  </div>
+</body>
+
+</html>
